@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>FreeCrmBDDFramework</groupId>
-	<artifactId>FreeCrmBDDFramework</artifactId>
+	<groupId>test</groupId>
+	<artifactId>test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>FreeCrmBDDFramework</name>
+	<name>test</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -15,7 +15,21 @@
 	</properties>
 
 	<dependencies>
-
+<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.14.3</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+                 <groupId>org.testng</groupId>
+                 <artifactId>testng</artifactId>
+                 <version>6.14.2</version>
+                 <scope>compile</scope>
+           </dependency>
+	
+	
 
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -78,9 +92,6 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
-
-
-
 
 	</dependencies>
 </project>

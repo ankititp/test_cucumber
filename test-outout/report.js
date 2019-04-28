@@ -1,231 +1,69 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/NaveenKhunteta/Documents/workspace/FreeCrmBDDFramework/src/main/java/Features/taggedhooks.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/ankit/Downloads/CucumberSeleniumFramework-master/src/main/java/Features/Brokers.feature");
 formatter.feature({
   "line": 1,
-  "name": "Test Tagged Hooks",
+  "name": "Select NSW Sydney Menu",
   "description": "",
-  "id": "test-tagged-hooks",
+  "id": "select-nsw-sydney-menu",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 259317,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 133065,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 135775,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 4,
-  "name": "This is First test",
+formatter.scenarioOutline({
+  "line": 3,
+  "name": "Select NSW Sydney Menu",
   "description": "",
-  "id": "test-tagged-hooks;this-is-first-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@First"
-    }
-  ]
+  "id": "select-nsw-sydney-menu;select-nsw-sydney-menu",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
-  "name": "this is the first step",
+  "name": "I visit Aussie home Loan Website",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "this is the second step",
-  "keyword": "When "
+  "name": "I View Meet Our brokers Menu",
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "this is the third step",
+  "name": "I select NSW sydney Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I click \u0027A\u0027 from the alphabetical listing of store",
   "keyword": "Then "
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
-});
-formatter.result({
-  "duration": 85898436,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
-});
-formatter.result({
-  "duration": 98039,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
-});
-formatter.result({
-  "duration": 84479,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 54473,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 44919,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 81175,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 112120,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 82098,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 76810,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "This is Second test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-second-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@Second"
-    }
-  ]
 });
 formatter.step({
   "line": 11,
-  "name": "this is the first step",
-  "keyword": "Given "
+  "name": "I click on aussie Albury Link",
+  "keyword": "When "
 });
 formatter.step({
   "line": 12,
-  "name": "this is the second step",
-  "keyword": "When "
+  "name": "should be navigated to Aussie Albury Screen",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 13,
-  "name": "this is the third step",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
-});
-formatter.result({
-  "duration": 127029,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
-});
-formatter.result({
-  "duration": 88211,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
-});
-formatter.result({
-  "duration": 88937,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 92284,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 140453,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 66290,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 120620,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 76143,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 67536,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "This is Third test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-third-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
+  "name": "enter the following values",
+  "rows": [
     {
-      "line": 15,
-      "name": "@Third"
+      "cells": [
+        "ankit",
+        "gupta",
+        "ankit@gmail.com",
+        "0123456789",
+        "blacktown"
+      ],
+      "line": 14
     }
-  ]
+  ],
+  "keyword": "And "
 });
 formatter.step({
-  "line": 17,
-  "name": "this is the first step",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 18,
-  "name": "this is the second step",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 19,
-  "name": "this is the third step",
+  "line": 15,
+  "name": "following message \"congrats. you are on your way\" is displayed",
   "keyword": "Then "
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
-});
-formatter.result({
-  "duration": 69572,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
-});
-formatter.result({
-  "duration": 72834,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
-});
-formatter.result({
-  "duration": 71562,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 74866,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 67355,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 66706,
-  "status": "passed"
 });
 });
